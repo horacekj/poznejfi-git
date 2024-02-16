@@ -23,13 +23,27 @@ skrze terminál a s GitHubem přes webové rozhraní.
    - Rozdělení na poloviny spektra, pak do dvojic.
    - Každý bude pracovat sám na svém projektu, aby byl workshop hands-on, ale
      jste buddies, tak si pomáhejte.
-3. Oblíbený textový editor? → Rozhodnout se co používat pro všechny jednotně.
+
+## Co je to git a k čemu je dobrý
+
+* Verzování textových souborů
+* Kolaborace
+* Zálohování
+* Trackování času na projektu
+* Sdílení / publikování
+
+## Slidy + Letem světem linuxem
+
+* Ukázat slidy a kde jsou vystavené
+* Oblíbený textový editor? → Rozhodnout se co používat pro všechny jednotně.
 
 ## add, commit, log
 
 * Co do repozitáře patří a co tam nepatří (binárky)
 
 ## GitHub
+
+* Co je to GitHub a k čemu je dobrý
 
 ## Pull, push
 
@@ -52,3 +66,9 @@ skrze terminál a s GitHubem přes webové rozhraní.
 
 * Tagy (jak zveřejnit binárky)
 * Podepisování commitů / tagů
+
+## TODOs
+
+[ ] Nahrát slidy na <https://poznej.fi.muni.cz/git.pdf>
+[ ] Nahrát `cipher.py` na <https://poznej.fi.muni.cz/cipher.py>
+[ ] Nahrát `test.py` na <https://poznej.fi.muni.cz/test.py>
