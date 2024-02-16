@@ -15,6 +15,10 @@ A219
 
 ## Úvod
 
+* `git config --global core.editor`
+* Naučit se ovládat textový editor
+* Co se repozitáře patří a co tam nepatří (binárky)
+
 ## add, commit, log
 
 ## GitHub
@@ -35,3 +39,8 @@ A219
 ## GitHub CI - spouštění automatizovaných testů
 
 ## Pár slov o decentralizaci
+
+## FYI
+
+* Tagy (jak zveřejnit binárky)
+* Podepisování commitů / tagů
