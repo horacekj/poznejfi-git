@@ -1,0 +1,11 @@
+git.pdf
+*.aux
+*.log
+*.bcf
+*.nav
+*.out
+*.snm
+*.toc
+*.run.xml
+
+*.swp
