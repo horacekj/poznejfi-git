@@ -232,8 +232,75 @@ Vyzkoušejte si push \& pull. Zkuste udělat úpravu souboru přímo na GitHubu.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{FAQ}
-Rozbil jsem si repozitář...
+
+\begin{frame}{Workflow, pull requesty, issues}
+\begin{itemize}
+	\item Typické workflow většího projektu: větve (\textit{branch}): \\
+	\texttt{main}, \texttt{dev}, \texttt{feature<x>}.
+	\item Feature pull request do dev. Dev release do main (dělá správce projektu).
+	\item Vše je v jediném repozitáři.
+\end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/features.pdf}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Větve}
+\texttt{\$ git branch caesar} – vytvoří novou větev \\
+\texttt{\$ git push -u origin caesar} – push nové větve (stačí poprvé) \\
+\texttt{\$ git switch <branch>} – přepne stav souborů na HEAD větve <branch>
+
+\begin{block}{Pro zvídavé}
+\href{https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell}{Branches in a Nutshell}
+\end{block}
+
+\begin{alertblock}{Úkol}
+\begin{enumerate}
+	\item Vytvořte feature kolegovi (použijte větev).
+	\item Otevřte pull request.
+	\item Kolega pull request přijme.
+\end{enumerate}
+\end{alertblock}
+\end{frame}
+
+
+\begin{frame}{Co stojí za vyzkoušení}
+GitHub:
+\begin{itemize}
+	\item Issues a propojení s commit messages.
+	\item Markdown – \texttt{README.md}.
+	\item Releases a distribuce binárních souborů.
+\end{itemize}
+
+Git:
+\begin{itemize}
+	\item \texttt{.gitignore}
+	\item \texttt{\$ git show}
+	\item \texttt{\$ git diff}
+	\item \texttt{\$ git tag}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Slovo závěrem}
+\begin{block}{Co dělat, když jsem si rozbil repozitář?}
+Odpověď: nastudujte si \href{https://git-scm.com/doc}{dokumentaci gitu}, je
+přehledná a detailní. Pak budete vědět, jak se dostat z prakticky libovolného stavu.
+\end{block}
+
+Co se hodí vědět:
+
+\begin{itemize}
+	\item git se obecně snaží nikdy nesmazat rozdělanou práci.
+	\begin{itemize}
+		\item Výjimka: použití přepínače \texttt{-{}-hard}. Pozor na něj!
+	\end{itemize}
+	\item \texttt{\$ git push -{}-force} často víc problémů způsobí než vyřeší.
+	Pozor na něj!
+\end{itemize}
 \end{frame}
 
 \end{document}
