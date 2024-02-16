@@ -1,7 +1,7 @@
 \documentclass[
 ]{beamer}
 
-\usepackage[english]{babel}
+\usepackage[czech]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{csquotes}
@@ -15,24 +15,54 @@
 \hypersetup{colorlinks,linkcolor=blue,urlcolor=blue}
 
 \title{Verzovací systém git \& GitHub}
-\subtitle{Poznej FI 2024}
-\author[]{Jan Horáček}
-\institute[FI MU]{Fakulta informatiky, Masarykova univerzita}
+\subtitle{Workshop Poznej FI 2024}
+\author[Honza Horáček]{Honza Horáček}
+\institute[FI MU]{Spolek přátel severské zvěře, Fakulta informatiky, Masarykova univerzita}
 \date{17. 2. 2024}
-\subject{}
-\keywords{}
+%\subject{}
+%\keywords{}
 \begin{document}
 
 \begin{frame}[plain]
 \maketitle
 \end{frame}
 
-\section{Organization}
+\begin{frame}{Letem světem Linuxem}
+\begin{enumerate}
+	\item Login na tabuli.
+	\item Budeme používat git v terminálu (wtf?!).
+	\item Základy práce s terminálem: \\
+	prompt, souborový systém, \texttt{ls}, \texttt{cd}, \texttt{Ctrl+C}.
+	\pause
+	\item Textové editory: \texttt{vim}, \texttt{nano}, ...
+\end{enumerate}
+\end{frame}
 
-\begin{frame}{Úvod}
-\begin{itemize}
-	\item test
-\end{itemize}
+\begin{frame}
+\includegraphics[width=\textwidth]{images/vim1.png}
+\end{frame}
+
+\begin{frame}
+\centering
+\includegraphics[height=\textheight]{images/vim2.jpg}
+\end{frame}
+
+\begin{frame}{Základní konfigurace gitu}
+
+Ovládání: \\
+\texttt{\$ git <command>} \\
+\vspace{1em}
+
+\texttt{\$ git config -{}-global user.name "Honza Horacek"} \\
+\texttt{\$ git config -{}-global user.email "me@apophis.cz"} \\
+\texttt{\$ git config -{}-global core.editor vim} :)
+
+\begin{block}{Pro zvídavé}
+\texttt{\$ git config -{}-list} \\
+\texttt{\$ git config -{}-help}
+
+Různé úrovně konfigurace: \texttt{-{}-system}, \texttt{-{}-global}, \texttt{-{}-local}
+\end{block}
 \end{frame}
 
 \end{document}

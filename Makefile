@@ -1,6 +1,8 @@
+IMAGES=$(wildcard images/*)
+
 all: git.pdf
 
-%.pdf: %.tex Makefile
+%.pdf: %.tex $(IMAGES) Makefile
 	TEXINPUTS=support: pdflatex -interaction=batchmode $< # The initial typesetting.
 	TEXINPUTS=support: texfot pdflatex $<
 
