@@ -140,17 +140,97 @@ Zkuste si pracovat s příkazy:
 	\item \texttt{\$ git commit}
 	\item \texttt{\$ git log}
 	\item \texttt{\$ git reset}
-	\item \texttt{\$ git commit -m}
+	\item \texttt{\$ git commit -m <message>}
 	\item \texttt{\$ git commit -a}
 	\item \texttt{\$ git commit -{}-amend}
 \end{itemize}
 
-\begin{block}{Může se hodit}
+\begin{block}{Před použitím příkazu zjistěte, co dělají!}
 \texttt{\$ git <command> -{}-help}
 \end{block}
 
+Vyrobte několik commitů.
 \end{frame}
 
+
+\begin{frame}{GitHub}
+\centering
+\url{https://github.com/} \vspace{1em} \\
+\includegraphics[width=0.5\textwidth]{images/gitgithub.jpg}
+\end{frame}
+
+
+\begin{frame}{GitHub}
+\begin{itemize}
+	\item \href{https://github.com/horacekj}{Ukázka osobního účtu}
+	\item \href{https://github.com/fi-ksi}{Ukázka organizace}
+	\pause
+	\item Vytvořte si účet.
+	\item Založte si svůj prázdný repozitář \texttt{pficipher}.
+	\item Projděte si nějaké repozitáře, proklikejte si webové rozhraní.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Propojení gitu a GitHubu}
+\begin{itemize}
+	\item Git: distribuovaný systém s více možnými remotes.
+	\item Základní workflow: jediný remote (alá GitHub).
+	\item Komunikace s remote: více možností, my použijeme ssh (secure shell).
+	\item \texttt{ssh-keygen} vytvoří pár klíčů.
+	\begin{itemize}
+		\item Privátní klíč si střežte jako oko v hlavě!
+		\item Veřejný klíč (\texttt{.pub}) nahrajte do nastavení svého účtu na GitHub.
+	\end{itemize}
+\end{itemize}
+
+\begin{block}{Pro zvídavé}
+\href{https://linuxize.com/post/using-the-ssh-config-file/}{Soubor \texttt{.ssh/config}} umožňuje definovat,
+pro jaké hosty se mají používat jaké ssh parametry (uživatelské jméno, klíč, ...).
+\end{block}
+\end{frame}
+
+
+\begin{frame}{pull, push}
+\texttt{\$ git remote add origin git@github.com:<user>/<repo>.git} \\
+\texttt{\$ git push -u origin main} \\
+
+\begin{itemize}
+	\item \texttt{\$ git pull} – načte commity z remote
+	\item \texttt{\$ git push} – odešle commity na remote
+\end{itemize}
+
+\begin{block}{Projekt}
+\url{https://poznej.fi.muni.cz/test.py} \\
+Vyzkoušejte si push \& pull. Zkuste udělat úpravu souboru přímo na GitHubu.
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Co když chci přepsat commit?}
+\begin{itemize}
+	\item Např. \texttt{push}, pak \texttt{commit -{}-amend}, pak \texttt{push}.
+	\pause
+	\item Velký problém – git hlídá kontinuitu historie.
+	\item Řešení: primárně prevence, obecně pokročilejší téma.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Spolupráce}
+\begin{itemize}
+	\item Udělte svému sousedovi přístup do repozitáře.
+	\item Soused si váš repozitář stáhne k sobě do samostatného adresáře: \texttt{\$ git clone <remoteurl>}.
+	\item Budete mít na počítači 2 podobné repozitáře, nesplěťte se!
+	\item Zkuste pracovat v repozitáři souseda.
+	\item Zkuste oba pracovat na stejném repozitáři.
+	\begin{enumerate}
+		\item Každý na jiném souboru.
+		\item Oba na stejném souboru.
+		\item Oba na stejném místě ve stejném souboru.
+	\end{enumerate}
+\end{itemize}
+\end{frame}
 
 \begin{frame}{FAQ}
 Rozbil jsem si repozitář...

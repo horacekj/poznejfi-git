@@ -19,6 +19,7 @@ skrze terminál a s GitHubem přes webové rozhraní.
 ## Úvod
 
 1. Máte zkušenosti s gitem? Jaké?
+   - Má někdo GitHub účet?
 2. Jaký nejdelší program jste kdy napsali?
    - Rozdělení na poloviny spektra, pak do dvojic.
    - Každý bude pracovat sám na svém projektu, aby byl workshop hands-on, ale
@@ -44,8 +45,16 @@ skrze terminál a s GitHubem přes webové rozhraní.
 ## GitHub
 
 * Co je to GitHub a k čemu je dobrý
+  - Sdílení / publikování
+  - Zálohování
+  - Sociální síť
+  - Prezentace (pracovní)
+* Alternativní služby
+* Opensource
 
 ## Pull, push
+
+## Spolupráce, merge
 
 ## Workflows, větve
 
@@ -72,3 +81,4 @@ skrze terminál a s GitHubem přes webové rozhraní.
 [ ] Nahrát slidy na <https://poznej.fi.muni.cz/git.pdf>
 [ ] Nahrát `cipher.py` na <https://poznej.fi.muni.cz/cipher.py>
 [ ] Nahrát `test.py` na <https://poznej.fi.muni.cz/test.py>
+[ ] Ověřit přítomnost a funkci ssh-keygen
