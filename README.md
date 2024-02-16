@@ -16,7 +16,7 @@ skrze terminál a s GitHubem přes webové rozhraní.
 * Vede: Honza Horáček
 * Místnost: A219
 
-## Úvod
+## Úvod [10 minut]
 
 1. Máte zkušenosti s gitem? Jaké?
    - Má někdo GitHub účet?
@@ -25,7 +25,7 @@ skrze terminál a s GitHubem přes webové rozhraní.
    - Každý bude pracovat sám na svém projektu, aby byl workshop hands-on, ale
      jste buddies, tak si pomáhejte.
 
-## Co je to git a k čemu je dobrý
+## Co je to git a k čemu je dobrý [5 minut]
 
 * Verzování textových souborů
 * Kolaborace
@@ -33,16 +33,16 @@ skrze terminál a s GitHubem přes webové rozhraní.
 * Trackování času na projektu
 * Sdílení / publikování
 
-## Slidy + Letem světem linuxem
+## Slidy + Letem světem linuxem [15 minut]
 
 * Ukázat slidy a kde jsou vystavené
 * Oblíbený textový editor? → Rozhodnout se co používat pro všechny jednotně.
 
-## add, commit, log
+## add, commit, log [20 minut]
 
 * Co do repozitáře patří a co tam nepatří (binárky)
 
-## GitHub
+## GitHub, propojení [15 minut]
 
 * Co je to GitHub a k čemu je dobrý
   - Sdílení / publikování
@@ -52,33 +52,17 @@ skrze terminál a s GitHubem přes webové rozhraní.
 * Alternativní služby
 * Opensource
 
-## Pull, push
+## Pull, push [15 minut]
 
-## Spolupráce, merge
+## Spolupráce, merge [20 minut]
 
-## Workflows, větve
+## Workflows, větve, pull request [20 minut]
 
-## Pull request
-
-## Projití GUI GitHubu
-
-* README
-* Markdown
-
-## .gitignore
-
-## GitHub CI - spouštění automatizovaných testů
-
-## Pár slov o decentralizaci
-
-## FYI
-
-* Tagy (jak zveřejnit binárky)
-* Podepisování commitů / tagů
+## Co stojí za vyzkoušení
 
 ## TODOs
 
 [ ] Nahrát slidy na <https://poznej.fi.muni.cz/git.pdf>
 [ ] Nahrát `cipher.py` na <https://poznej.fi.muni.cz/cipher.py>
 [ ] Nahrát `test.py` na <https://poznej.fi.muni.cz/test.py>
-[ ] Ověřit přítomnost a funkci ssh-keygen
+[ ] Ověřit přítomnost a funkci gitu a ssh-keygen
