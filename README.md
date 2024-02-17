@@ -16,7 +16,7 @@ skrze terminál a s GitHubem přes webové rozhraní.
 * Vede: Honza Horáček
 * Místnost: A219
 
-## Úvod [10 minut]
+## Úvod [15  minut]
 
 1. Máte zkušenosti s gitem? Jaké?
    - Má někdo GitHub účet?
@@ -60,9 +60,13 @@ skrze terminál a s GitHubem přes webové rozhraní.
 
 ## Co stojí za vyzkoušení
 
-## TODOs
+## Před workshopem
 
-[ ] Nahrát slidy na <https://poznej.fi.muni.cz/git.pdf>
-[ ] Nahrát `cipher.py` na <https://poznej.fi.muni.cz/cipher.py>
-[ ] Nahrát `test.py` na <https://poznej.fi.muni.cz/test.py>
-[ ] Ověřit přítomnost a funkci gitu a ssh-keygen
+* Nahrát slidy na <https://poznej.fi.muni.cz/git.pdf>
+* Nahrát `cipher.py` na <https://poznej.fi.muni.cz/cipher.py>
+* Nahrát `test.py` na <https://poznej.fi.muni.cz/test.py>
+* Ověřit přítomnost a funkci gitu a ssh-keygen
+
+## Poznámky z uvedení
+
+Dostali jsme se za pull & push, trochu spolupráce.
